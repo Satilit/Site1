@@ -1,0 +1,390 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+}
+
+body {
+  font-family: Arial, Verdana, sans-serif;
+}
+
+/* index */
+.main-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  color: #fff;
+  background-color: #070217;
+}
+
+.img {
+  margin: 0;
+  display: block;
+  margin-bottom: 50px;
+}
+
+.buttoms {
+  margin: 0;
+  margin-bottom: 50px;
+  font-size: 0;
+}
+
+/* Ссылки Modules и Indents */
+.link {
+  display: inline-block;
+  padding: 24px 49px;
+  margin-right: 25px;
+  font-weight: 700;
+  font-size: 18px;
+  background-color: #3f2aff;
+}
+
+.link:last-child {
+  margin-right: 0;
+}
+
+/* Ссылка загрузки */
+.download-link {
+  padding-left: 30px;
+  font-weight: 700;
+  font-size: 18px;
+  background-image: url("../img/download.png");
+  background-position: left center;
+  background-size: 20px 20px;
+  background-repeat: no-repeat;
+  color: #3f2aff;
+
+}
+
+.article {
+  display: inline-block;
+  padding: 24px 49px;
+}
+
+/* article */
+/* №3 Главный заголовок*/
+.main-title {
+  margin: 0;
+  margin-bottom: 40px;
+  font-weight: 400;
+  font-size: 60px;
+  line-height: 60px;
+  color: #333;
+}
+
+/* Все параграфы */
+.text {
+  margin: 0;
+  margin-bottom: 40px;
+  width: 872px;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 32px;
+  color: #333;
+}
+
+/* Параграф на синем фоне */
+.subject {
+  border-radius: 20px;
+  padding: 50px 95px;
+  width: 100%;
+  font-weight: 700;
+  font-size: 30px;
+  color: #f3f3f3;
+  background-color: #3f2aff;
+}
+
+/* №7 Серый блок */
+.grey_block {
+  padding: 30px;
+  margin-bottom: 40px;
+  border-radius: 20px;
+  background-color: #f3f3f3;
+  background-position: right center;
+  background-repeat: no-repeat;
+}
+
+/* №9 Заголовок h2 */
+.second-title {
+  margin: 0;
+  margin-bottom: 10px;
+  font-size: 40px;
+  line-height: 46px;
+  color: #333;
+}
+
+/* Цвет точек в содержании */
+.list_item::marker {
+  color: #3f2aff;
+}
+
+/* №12 Список в содержании */
+.list_item {
+  margin: 0;
+  padding: 0;
+  margin-bottom: 20px;
+  max-width: 100%;
+}
+
+.list_item:last-child {
+  margin: 0;
+}
+
+/* Ссылки списка */
+.list_link {
+  border-bottom: 1px solid #3f2aff;
+  font-size: 20px;
+  color: #3f2aff;
+}
+
+/* №4 Заголоовки*/
+.title {
+  margin: 0;
+  margin-bottom: 10px;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 34px;
+  color: #333;
+}
+
+/* Картинка figure */
+.figure-img {
+  margin: 0;
+}
+
+/* №14 figure*/
+.image-wrapper {
+  margin: 0;
+  margin-bottom: 40px;
+  width: 872px;
+  font-size: 0;
+}
+
+/* Описание к картинке */
+.desc {
+  padding-top: 19px;
+  padding-bottom: 19px;
+  border: 1px solid #b6b6b6;
+  border-top: 0;
+  font-weight: 400;
+  font-size: 14px;
+  text-align: center;
+}
+
+/* №1 Body*/
+.container {
+  margin: 0 auto;
+  padding: 80px 0;
+  width: 1170px;
+}
+
+.text:last-child {
+  margin-bottom: 0px;
+}
+
+/* №5 Список серого блока*/
+.list:last-child {
+  margin: 0;
+  padding-left: 15px;
+}
+
+/* №8 Параграф серого блока */
+.grey_p {
+  margin: 0;
+  margin-bottom: 10px;
+  width: 692px;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 32px;
+  color: #333;
+}
+
+.grey_p:last-child {
+  margin: 0;
+}
+
+
+/* №13 */
+.jpg {
+  margin-bottom: 40px;
+}
+
+.parent {
+  margin-bottom: 40px;
+}
+
+.parent:last-child {
+  margin-bottom: 0;
+}
+
+.grey_block:last-child {
+  margin: 0;
+}
+
+.image-wrapper:last-child {
+  margin: 0;
+}
+
+/* Задний фон для серого блока */
+.header {
+  background-image: url("../img/decorate-1.png");
+}
+
+.footer {
+  background-image: url("../img/decorate-2.png");
+}
+
+/* modules.html */
+
+.containerplus {
+  padding: 50px 0;
+}
+
+.logo-skillbox {
+  margin: 0;
+  margin-bottom: 25px;
+  width: 137px;
+  height: 30px;
+}
+
+.href {
+  margin: 0;
+  margin-bottom: 25px;
+}
+
+/* Кнопка назад */
+.back {
+  padding-left: 57px;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 23px;
+  color: #3f2aff;
+  background-image: url("../img/arrow-1.png");
+  background-position: left center;
+  background-repeat: no-repeat;
+}
+
+.subtitle {
+  margin: 0;
+  margin-bottom: 50px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 60px;
+  line-height: 69px;
+  color: #3f2aff;
+}
+
+/* Картинки */
+.block {
+  margin: 0;
+  padding: 0;
+  font-size: 0;
+}
+
+
+.forms{
+  padding: 0;
+  margin-bottom: 50px;
+}
+
+.item {
+  display: inline-block;
+  margin: 0;
+  width: 572px;
+  min-height: 505px;
+  vertical-align: top;
+  list-style-type: none;
+  filter: drop-shadow(0px 0px 40px rgba(0, 0, 0, 0.1));
+  background-color: rgba(255, 255, 255, 1);
+  background-repeat: no-repeat;
+}
+
+/* Заголовки */
+.tagline {
+  margin: 0;
+  padding: 0;
+  padding-top: 205px;
+  padding-left: 25px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 46px;
+  color: #3F2AFF;
+}
+
+.list-item {
+  margin: 0;
+  padding: 0;
+  padding-left: 25px;
+  list-style-type: none;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 165%;
+  color: #333333;
+}
+
+.item:not(:nth-child(2n)) {
+  margin-right: 25px;
+}
+
+.item1 {
+  background-image: url("../img/01.jpg");
+  margin-bottom: 25px;
+}
+
+.item2 {
+  background-image: url("../img/02.jpg");
+}
+
+.item3 {
+  background-image: url("../img/03.jpg");
+}
+
+.item4 {
+  background-image: url("../img/04.jpg");
+}
+
+/* Цифры */
+.numbers {
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  left: 502px;
+  top: 434px;
+  font-size: 40px;
+  line-height: 46px;
+  color: #eaeaea;
+}
+
+/* Кнопка */
+.button {
+  text-align: center;
+}
+
+.btn {
+  display: inline-block;
+  border: 2px solid #3f2aff;
+  padding: 22px 73px;
+  text-align: center;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  color: #3f2aff;
+  background-color: rgba(28,28,28,0)
+}
